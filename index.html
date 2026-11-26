@@ -1,60 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tom Howells Family Law</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Using Google Fonts to match your original site -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tom Howells Family Law | Guelph, Ontario</title>
+  <meta name="description" content="Tom Howells Family Law proudly serves Guelph, Ontario. Cohabitation agreements, separation agreements, parenting plans and family law litigation.">
+  <meta name="theme-color" content="#faf8f4">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Tom Howells Family Law",
+    "telephone": "+1-519-829-0142",
+    "email": "inquiries@tomhowells.ca",
+    "areaServed": { "@type": "City", "name": "Guelph" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Guelph", "addressRegion": "ON", "addressCountry": "CA" }
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Navigation -->
-    <header>
-        <div class="logo-container">
-            <img src="logo.png" alt="Tom Howells Family Law Logo" class="logo">
-            <span class="site-title">Tom Howells Family Law</span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="" width="46" height="46">
+        <span>Tom Howells Family Law</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
+  <main id="main">
     <section class="hero">
-        <div class="hero-content">
-            <h1>Tom Howells Family Law</h1>
-            <h2>Proudly serving Guelph, Ontario</h2>
+      <div class="container">
+        <span class="eyebrow">Proudly serving Guelph, Ontario</span>
+        <h1>
+          <span>Planning for your future?</span>
+          <span>Dealing with what life brings your way?</span>
+        </h1>
+        <p class="intro">I'm Tom Howells. I help people take control of their family law matters so they can set things right with peace of mind.</p>
+        <div class="btn-row">
+          <a class="btn" href="contact.html">Let's do this together</a>
+          <a class="btn ghost" href="services.html">View services</a>
         </div>
+        <figure class="hero-photo">
+          <img src="assets/hero-1584.jpg"
+               srcset="assets/hero-800.jpg 800w, assets/hero-1584.jpg 1584w"
+               sizes="(min-width: 1120px) 1080px, calc(100vw - 2.5rem)"
+               alt="The courthouse in Guelph, Ontario, on a sunny day" width="1584" height="672" fetchpriority="high">
+        </figure>
+      </div>
     </section>
 
-    <!-- Main Content -->
-    <main>
-        <section class="intro">
-            <h3>Planning for your future?</h3>
-            <h3>Dealing with what life brings your way?</h3>
-            <p><strong>I'm Tom Howells. I help people take control of their family law matters so they can set things right with peace of mind.</strong></p>
-            <p>Let's do this together.</p>
-        </section>
-    </main>
+    <section class="section alt" aria-labelledby="help-h">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="help-h">How I can help</h2>
+          <hr class="rule">
+        </div>
+        <div class="mini-grid">
+          <a class="mini" href="services.html#cohabitation">
+            <h3>Cohabitation Agreements</h3>
+            <p>Clear financial and property arrangements for unmarried couples.</p>
+          </a>
+          <a class="mini" href="services.html#separation">
+            <h3>Separation Agreements</h3>
+            <p>Fair, legally binding agreements when a relationship ends.</p>
+          </a>
+          <a class="mini" href="services.html#parenting">
+            <h3>Parenting Plan Agreements</h3>
+            <p>Co-parenting plans that put your children first.</p>
+          </a>
+          <a class="mini" href="services.html#litigation">
+            <h3>Litigation</h3>
+            <p>Strong representation when negotiation isn't an option.</p>
+          </a>
+        </div>
+        <p class="more-link"><a href="services.html">See all services &rarr;</a></p>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <p>Tel: (519) 829-0142 | Email: inquiries@tomhowells.ca</p>
-    </footer>
+    <section class="section" aria-labelledby="meet-h">
+      <div class="container meet">
+        <figure class="headshot">
+          <img src="assets/headshot.jpg" alt="Portrait of Tom Howells" width="900" height="1200" loading="lazy">
+        </figure>
+        <div>
+          <h2 id="meet-h">Meet Tom</h2>
+          <p>Tom was called to the Bar in 2018, and has been practising in Guelph since he returned to his hometown in 2019 to open his own practice.</p>
+          <p><a class="btn ghost" href="about.html">About Tom</a></p>
+        </div>
+      </div>
+    </section>
 
+    <section class="section alt cta">
+      <div class="container">
+        <h2>Let's do this together.</h2>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-white.png" alt="" width="52" height="52" loading="lazy">
+        <div>
+          <p><strong>Tom Howells Family Law</strong></p>
+          <p>Tel: <a href="tel:+15198290142">(519) 829-0142</a></p>
+          <p><a href="mailto:inquiries@tomhowells.ca">inquiries@tomhowells.ca</a></p>
+        </div>
+      </div>
+      <div class="disclaimer">
+        <p>Contacting Tom Howells Family Law does not establish a lawyer-client relationship.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
