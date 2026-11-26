@@ -5,6 +5,7 @@ A simple static site (no build step) for GitHub Pages.
 ## Files
 - `index.html`, `about.html`, `services.html`, `contact.html` – the four pages
 - `styles.css` – all styling (colours and fonts are variables at the top)
+- `theme.js` – light/dark handling (follows the visitor's device setting; the header toggle overrides it and is remembered)
 - `favicon.ico` – tab icon (keep in the root folder, next to `index.html`)
 - `assets/` – logo, headshot and favicon/touch icons used by the pages
 
@@ -17,5 +18,6 @@ A simple static site (no build step) for GitHub Pages.
 To use a custom domain (for example tomhowells.ca), add it under **Settings → Pages → Custom domain** and set the DNS records GitHub lists.
 
 ## Editing
+- Light and dark colours are variables at the top of `styles.css`. The dark values appear twice (one for "device prefers dark", one for the manual toggle), so change both.
 - The header and footer are repeated in each HTML file, so update all four if you change them.
 - To swap the headshot, replace `assets/headshot.jpg` (3:4 portrait works best, around 900×1200).
